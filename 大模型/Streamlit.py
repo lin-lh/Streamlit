@@ -32,4 +32,4 @@ st.image(str(BASE_DIR / "resource" / "Pictures" / "R-C.jpg"))
 st.audio(str(BASE_DIR / "resource" / "儿歌多多 - 生日快乐 (粤语儿歌).mp3"))
 
 # logo
-st.logo(str(BASE_DIR / "resource" / "Pictures" / "微信图片_20260925020619_4_43.jpg"), size="small")
+st.logo(str(BASE_DIR / "resource" / "Pictures" / "微信图片_20260925020619_4_43.jpg"), size="large")
