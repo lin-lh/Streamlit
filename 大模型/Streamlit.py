@@ -13,10 +13,10 @@ st.write(
 st.write("有空咱们聚一聚，好好喝一杯，庆祝你又长大一岁！")
 
 # 图片
-st.image("./resource/Pictures/R-C.jpg")
+st.image("resource/Pictures/R-C.jpg")
 
 # 音频
-st.audio("./resource/儿歌多多 - 生日快乐 (粤语儿歌).mp3")
+st.audio("resource/儿歌多多 - 生日快乐 (粤语儿歌).mp3")
 
 # logo
-st.logo("./resource/Pictures/微信图片_20260925020619_4_43.jpg", size="small")
+st.logo("resource/Pictures/微信图片_20260925020619_4_43.jpg", size="small")
