@@ -1,4 +1,5 @@
 import streamlit as st
+from pathlib import Path
 
 # 标题
 st.title("通告", text_alignment="center")
@@ -12,9 +13,23 @@ st.write(
     "愿你在新的一岁里：事业更上一层楼，想要的都慢慢实现；身体健健康康，日子过得热气腾腾；身边有人懂你、陪你、挺你。无论走多远，兄弟都在。")
 st.write("有空咱们聚一聚，好好喝一杯，庆祝你又长大一岁！")
 
-from pathlib import Path
+# # 图片
+# st.image("./resource/Pictures/R-C.jpg")
+#
+# # 音频
+# st.audio("./resource/儿歌多多 - 生日快乐 (粤语儿歌).mp3")
+#
+# # logo
+# st.logo("./resource/Pictures/微信图片_20260925020619_4_43.jpg", size="small")
+
 
 BASE_DIR = Path(__file__).resolve().parent
+
+# 图片
 st.image(str(BASE_DIR / "resource" / "Pictures" / "R-C.jpg"))
 
+# 音频
 st.audio(str(BASE_DIR / "resource" / "儿歌多多 - 生日快乐 (粤语儿歌).mp3"))
+
+# logo
+st.logo(str(BASE_DIR / "resource" / "Pictures" / "微信图片_20260925020619_4_43.jpg"), size="small")
